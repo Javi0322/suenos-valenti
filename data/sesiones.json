@@ -1,0 +1,6 @@
+[
+  { "id": 1, "nombre": "Conexión Lunar", "precio": 12 },
+  { "id": 2, "nombre": "Viaje Astral Guiado", "precio": 18 },
+  { "id": 3, "nombre": "Sanación Vibracional", "precio": 15 },
+  { "id": 4, "nombre": "Supra Conciencia en Grupo", "precio": 20 }
+]

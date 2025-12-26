@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Registro - Sueños Valenti</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body class="<%= tema %>">
+    <h1>Registro</h1>
+
+    <% if (errores && errores.length) { %>
+    <div style="border: 1px solid #c00; padding: 10px; margin-bottom: 10px">
+      <h3>Hay errores:</h3>
+      <ul>
+        <% errores.forEach(e => { %>
+        <li><%= e %></li>
+        <% }) %>
+      </ul>
+    </div>
+    <% } %>
+
+    <form method="POST" action="/registro">
+      <div>
+        <label>Nombre:</label>
+        <input
+          type="text"
+          name="nombre"
+          value="<%= (form && form.nombre) || '' %>" />
+      </div>
+
+      <div>
+        <label>Email:</label>
+        <input
+          type="email"
+          name="email"
+          value="<%= (form && form.email) || '' %>" />
+      </div>
+
+      <div>
+        <label>Edad:</label>
+        <input
+          type="number"
+          name="edad"
+          value="<%= (form && form.edad) || '' %>" />
+      </div>
+
+      <div>
+        <label>Ciudad:</label>
+        <input
+          type="text"
+          name="ciudad"
+          value="<%= (form && form.ciudad) || '' %>" />
+      </div>
+
+      <div>
+        <label>Intereses:</label><br />
+
+        <% const all = ['Meditación', 'Energía', 'Sueños lúcidos',
+        'Respiración', 'Mantras']; %> <% const selected = (form &&
+        form.intereses) ? (Array.isArray(form.intereses) ? form.intereses :
+        [form.intereses]) : []; %> <% all.forEach(i => { %>
+        <label style="display: block">
+          <input type="checkbox" name="intereses" value="<%= i %>" <%=
+          selected.includes(i) ? 'checked' : '' %> > <%= i %>
+        </label>
+        <% }) %>
+      </div>
+
+      <button type="submit">Registrarme</button>
+    </form>
+
+    <p><a href="/">Volver al inicio</a></p>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sesiones</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/functions.js"></script>
+  </head>
+  <body class="<%= tema %> sesiones">
+    <h1>Sesiones disponibles</h1>
+
+    <% if (flash) { %>
+    <h2 id="flash-message" class="<%= flash.tipo %>"><%= flash.mensaje %></h2>
+    <% } %>
+
+    <ul>
+      <% sesiones.forEach(s => { %>
+      <li>
+        <strong><%= s.nombre %></strong> <%= s.precio %>€
+        <form method="POST" action="/carrito/agregar" style="display: inline">
+          <input type="hidden" name="sesionId" value="<%= s.id %>" />
+          <button type="submit">🛒 Añadir al carrito</button>
+        </form>
+      </li>
+      <% }) %>
+    </ul>
+
+    <p><a href="/carrito">Ver carrito espiritual</a></p>
+    <p><a href="/">Volver</a></p>
+  </body>
+</html>

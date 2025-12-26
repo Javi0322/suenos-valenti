@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Carrito espiritual</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body class="<%= tema %>">
+    <h1>Carrito espiritual</h1>
+
+    <% if (!carrito.length) { %>
+    <p>Tu carrito está vacío 🧘‍♂️</p>
+    <% } else { %>
+    <ul>
+      <% carrito.forEach(s => { %>
+      <li><%= s.nombre %> — <%= s.precio %>€</li>
+      <% }) %>
+    </ul>
+
+    <p><strong>Total:</strong> <%= total %>€</p>
+
+    <form method="POST" action="/carrito/vaciar">
+      <button type="submit">Vaciar carrito</button>
+    </form>
+    <% } %>
+
+    <p><a href="/sesiones">Volver a sesiones</a></p>
+    <p><a href="/">Inicio</a></p>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "nombre": "Javier",
+    "email": "javigarciaman@gmail.com",
+    "edad": 18,
+    "ciudad": "Madrid",
+    "intereses": [
+      "Meditación",
+      "Sueños lúcidos"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Javier",
+    "email": "javigarciaman5@gmail.com",
+    "edad": 15,
+    "ciudad": "Madrid",
+    "intereses": [
+      "Meditación",
+      "Sueños lúcidos"
+    ]
+  }
+]
