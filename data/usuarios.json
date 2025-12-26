@@ -20,5 +20,45 @@
       "Meditación",
       "Sueños lúcidos"
     ]
+  },
+  {
+    "id": 3,
+    "nombre": "Javier",
+    "email": "javigarciaman2@gmail.com",
+    "edad": 24,
+    "ciudad": "Madrid",
+    "intereses": [
+      "Meditación",
+      "Energía",
+      "Sueños lúcidos",
+      "Respiración",
+      "Mantras"
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Javier",
+    "email": "javigarciamano@gmail.com",
+    "edad": 45,
+    "ciudad": "Madrid",
+    "intereses": [
+      "Meditación",
+      "Energía",
+      "Sueños lúcidos"
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Javier",
+    "email": "javigarciaman15@gmail.com",
+    "edad": 15,
+    "ciudad": "Madrid",
+    "intereses": [
+      "Meditación",
+      "Energía",
+      "Sueños lúcidos",
+      "Respiración",
+      "Mantras"
+    ]
   }
 ]

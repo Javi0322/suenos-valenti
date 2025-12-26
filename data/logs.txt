@@ -84,3 +84,115 @@
 2025-12-26 16:08:56 | anonimo | Accede a /sesiones
 2025-12-26 16:08:57 | anonimo | Accede a /sesiones
 2025-12-26 16:09:05 | anonimo | Accede a /sesiones
+2025-12-26 16:09:54 | javigarciaman@gmail.com | Inicia sesión
+2025-12-26 16:09:54 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:10:54 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:11:16 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:11:17 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:11:17 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:11:17 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:11:39 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:13:56 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:13:57 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:14:08 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:14:28 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:15:32 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:15:42 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:15:58 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:15:59 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:15:59 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:15:59 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:16:05 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:16:06 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:16:06 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:16:06 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:16:46 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:16:47 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:17:24 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:19:32 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:19:32 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:19:32 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:19:36 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:19:37 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:19:37 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:19:37 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:19:38 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:19:47 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:20:08 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:20:09 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:22:23 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:23:06 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:23:16 | javigarciaman@gmail.com | Cierra sesión
+2025-12-26 16:27:07 | anonimo | Se registra
+2025-12-26 16:27:19 | javigarciamano@gmail.com | Inicia sesión
+2025-12-26 16:27:19 | javigarciamano@gmail.com | Accede a /perfil
+2025-12-26 16:27:31 | javigarciamano@gmail.com | Accede a /perfil
+2025-12-26 16:36:28 | anonimo | Se registra
+2025-12-26 16:36:34 | javigarciaman15@gmail.com | Inicia sesión
+2025-12-26 16:36:34 | javigarciaman15@gmail.com | Accede a /perfil
+2025-12-26 16:37:03 | javigarciaman15@gmail.com | Accede a /perfil
+2025-12-26 16:37:12 | javigarciaman15@gmail.com | Accede a /perfil
+2025-12-26 16:37:27 | javigarciaman15@gmail.com | Accede a /perfil
+2025-12-26 16:37:32 | javigarciaman15@gmail.com | Accede a /perfil
+2025-12-26 16:37:50 | javigarciaman15@gmail.com | Accede a /perfil
+2025-12-26 16:37:51 | javigarciaman15@gmail.com | Accede a /perfil
+2025-12-26 16:37:51 | javigarciaman15@gmail.com | Accede a /perfil
+2025-12-26 16:37:51 | javigarciaman15@gmail.com | Accede a /perfil
+2025-12-26 16:37:51 | javigarciaman15@gmail.com | Accede a /perfil
+2025-12-26 16:39:01 | javigarciaman15@gmail.com | Accede a /sesiones
+2025-12-26 16:39:09 | javigarciaman15@gmail.com | Accede a /perfil
+2025-12-26 16:39:54 | javigarciaman15@gmail.com | Accede a /perfil
+2025-12-26 16:40:24 | javigarciaman15@gmail.com | Accede a /perfil
+2025-12-26 16:40:35 | javigarciaman15@gmail.com | Accede a /perfil
+2025-12-26 16:41:04 | javigarciaman15@gmail.com | Accede a /perfil
+2025-12-26 16:41:28 | javigarciaman15@gmail.com | Accede a /perfil
+2025-12-26 16:50:58 | javigarciaman@gmail.com | Inicia sesión
+2025-12-26 16:50:58 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:51:03 | javigarciaman@gmail.com | Accede a /carrito
+2025-12-26 16:51:49 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:52:09 | javigarciaman@gmail.com | Accede a /carrito
+2025-12-26 16:52:11 | javigarciaman@gmail.com | Accede a /sesiones
+2025-12-26 16:52:16 | javigarciaman@gmail.com | Accede a /carrito
+2025-12-26 16:52:44 | javigarciaman@gmail.com | Accede a /carrito
+2025-12-26 16:52:45 | javigarciaman@gmail.com | Accede a /sesiones
+2025-12-26 16:52:46 | javigarciaman@gmail.com | Accede a /carrito
+2025-12-26 16:52:48 | javigarciaman@gmail.com | Accede a /carrito
+2025-12-26 16:52:49 | javigarciaman@gmail.com | Accede a /sesiones
+2025-12-26 16:52:50 | javigarciaman@gmail.com | Agrega "Sanación Vibracional" al carrito
+2025-12-26 16:52:50 | javigarciaman@gmail.com | Accede a /sesiones
+2025-12-26 16:53:10 | javigarciaman@gmail.com | Agrega "Viaje Astral Guiado" al carrito
+2025-12-26 16:53:10 | javigarciaman@gmail.com | Accede a /sesiones
+2025-12-26 16:53:11 | javigarciaman@gmail.com | Agrega "Conexión Lunar" al carrito
+2025-12-26 16:53:11 | javigarciaman@gmail.com | Accede a /sesiones
+2025-12-26 16:53:12 | javigarciaman@gmail.com | Agrega "Supra Conciencia en Grupo" al carrito
+2025-12-26 16:53:12 | javigarciaman@gmail.com | Accede a /sesiones
+2025-12-26 16:53:12 | javigarciaman@gmail.com | Accede a /carrito
+2025-12-26 16:53:15 | javigarciaman@gmail.com | Vacía el carrito
+2025-12-26 16:53:15 | javigarciaman@gmail.com | Accede a /carrito
+2025-12-26 16:53:16 | javigarciaman@gmail.com | Accede a /sesiones
+2025-12-26 16:53:34 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:53:39 | javigarciaman@gmail.com | Accede a /carrito
+2025-12-26 16:53:41 | javigarciaman@gmail.com | Accede a /sesiones
+2025-12-26 16:53:41 | javigarciaman@gmail.com | Agrega "Sanación Vibracional" al carrito
+2025-12-26 16:53:41 | javigarciaman@gmail.com | Accede a /sesiones
+2025-12-26 16:55:09 | javigarciaman@gmail.com | Accede a /sesiones
+2025-12-26 16:55:10 | javigarciaman@gmail.com | Agrega "Viaje Astral Guiado" al carrito
+2025-12-26 16:55:10 | javigarciaman@gmail.com | Accede a /sesiones
+2025-12-26 16:56:02 | anonimo | Accede a /sesiones
+2025-12-26 16:56:14 | anonimo | Accede a /sesiones
+2025-12-26 16:56:20 | javigarciaman@gmail.com | Inicia sesión
+2025-12-26 16:56:20 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 16:56:23 | javigarciaman@gmail.com | Accede a /carrito
+2025-12-26 16:56:24 | javigarciaman@gmail.com | Accede a /sesiones
+2025-12-26 16:56:25 | javigarciaman@gmail.com | Agrega "Conexión Lunar" al carrito
+2025-12-26 16:56:25 | javigarciaman@gmail.com | Accede a /sesiones
+2025-12-26 16:56:28 | javigarciaman@gmail.com | Agrega "Viaje Astral Guiado" al carrito
+2025-12-26 16:56:28 | javigarciaman@gmail.com | Accede a /sesiones
+2025-12-26 16:56:28 | javigarciaman@gmail.com | Agrega "Sanación Vibracional" al carrito
+2025-12-26 16:56:28 | javigarciaman@gmail.com | Accede a /sesiones
+2025-12-26 17:01:35 | javigarciaman@gmail.com | Accede a /perfil
+2025-12-26 17:01:36 | javigarciaman@gmail.com | Cierra sesión
+2025-12-26 17:02:50 | anonimo | Accede a /sesiones
+2025-12-26 17:02:52 | anonimo | Accede a /sesiones
+2025-12-26 17:02:54 | anonimo | Accede a /sesiones
+2025-12-26 17:03:00 | anonimo | Accede a /sesiones

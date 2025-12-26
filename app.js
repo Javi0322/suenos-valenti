@@ -71,7 +71,7 @@ function requireLogin(req, res, next) {
 //-------------------------------
 app.get('/', (req, res) => {
   const tema = req.cookies.tema || 'claro'
-  res.render('inicio', { tema })
+  res.render('inicio', { tema, usuario: req.session.usuario })
 })
 
 app.get('/registro', (req, res) => {
@@ -166,9 +166,11 @@ app.post('/registro', (req, res) => {
 
   // Si hay errores, devolvemos el formulario con datos
   if (errores.length) {
+    const tema = req.cookies.tema || 'claro'
     return res.status(400).render('registro', {
       errores,
-      form: { nombre, email, edad, ciudad, intereses }
+      form: { nombre, email, edad, ciudad, intereses },
+      tema
     })
   }
 
@@ -191,9 +193,11 @@ app.post('/registro', (req, res) => {
     (u) => (u.email || '').toLowerCase() === normalizedEmail
   )
   if (exists) {
+    const tema = req.cookies.tema || 'claro'
     return res.status(400).render('registro', {
       errores: ['Ya existe un usuario con ese email.'],
-      form: { nombre, email, edad, ciudad, intereses }
+      form: { nombre, email, edad, ciudad, intereses },
+      tema
     })
   }
 
@@ -221,7 +225,7 @@ app.post('/registro', (req, res) => {
   // Guardar
   usuarios.push(user)
   fs.writeFileSync(filePath, JSON.stringify(usuarios, null, 2), 'utf-8')
-  escribirLog(email, 'Se registra')
+  escribirLog(req, 'Se registra')
   // Redirigir a login
   res.redirect('/login')
 })
@@ -231,9 +235,10 @@ app.post('/login', (req, res) => {
 
   // Contraseña fija
   if (password !== '1234') {
+    const tema = req.cookies.tema || 'claro'
     return res
       .status(401)
-      .render('login', { error: 'Credenciales incorrectas' })
+      .render('login', { error: 'Credenciales incorrectas', tema })
   }
 
   const filePath = path.join(__dirname, 'data', 'usuarios.json')
@@ -251,7 +256,10 @@ app.post('/login', (req, res) => {
   )
 
   if (!usuario) {
-    return res.status(404).render('login', { error: 'Usuario no encontrado' })
+    const tema = req.cookies.tema || 'claro'
+    return res
+      .status(404)
+      .render('login', { error: 'Usuario no encontrado', tema })
   }
 
   // Crear sesión
@@ -269,8 +277,6 @@ app.post('/login', (req, res) => {
 })
 
 app.post('/logout', (req, res) => {
-  const email = req.session.usuario ? req.session.usuario.email : 'anonimo'
-
   escribirLog(req, `Cierra sesión`)
   req.session.destroy(() => {
     res.redirect('/')
@@ -296,7 +302,10 @@ app.post('/carrito/agregar', (req, res) => {
   if (!req.session.carrito) req.session.carrito = []
   req.session.carrito.push(sesion)
 
-  req.session.flash = `🛒 Sesión "${sesion.nombre}" añadida al carrito`
+  req.session.flash = {
+    tipo: 'ok',
+    mensaje: `🛒 Sesión "${sesion.nombre}" añadida al carrito`
+  }
 
   res.redirect('/sesiones')
   escribirLog(req, `Agrega "${sesion.nombre}" al carrito`)

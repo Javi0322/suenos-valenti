@@ -5,14 +5,14 @@
     <title>Perfil - Sueños Valenti</title>
     <link rel="stylesheet" href="/style.css" />
   </head>
-  <body>
+  <body class="<%= tema %> perfil">
     <h1>Zona privada / Perfil</h1>
 
-    <p><strong>ID:</strong> <%= usuario.id %></p>
-    <p><strong>Nombre:</strong> <%= usuario.nombre %></p>
-    <p><strong>Email:</strong> <%= usuario.email %></p>
-    <p><strong>Edad:</strong> <%= usuario.edad %></p>
-    <p><strong>Ciudad:</strong> <%= usuario.ciudad %></p>
+    <p class="card"><strong>ID:</strong> <%= usuario.id %></p>
+    <p class="card"><strong>Nombre:</strong> <%= usuario.nombre %></p>
+    <p class="card"><strong>Email:</strong> <%= usuario.email %></p>
+    <p class="card"><strong>Edad:</strong> <%= usuario.edad %></p>
+    <p class="card"><strong>Ciudad:</strong> <%= usuario.ciudad %></p>
 
     <h3>Intereses</h3>
     <ul>
